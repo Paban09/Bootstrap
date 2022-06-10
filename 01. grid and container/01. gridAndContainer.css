@@ -1,0 +1,18 @@
+
+.container-demo{
+    width:1000px;
+    background-color: pink;
+
+    /* to take it in center */
+    margin:0 auto; 
+}
+
+.gcol-1{
+    background-color: red;
+    color:white;
+}
+
+.gcol-2{
+    background-color: green;
+    color:white;
+}
