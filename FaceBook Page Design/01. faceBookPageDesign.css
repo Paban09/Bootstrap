@@ -1,0 +1,28 @@
+.coverPic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+.profilePic{
+    border-radius: 50%;
+}
+
+.proName{
+    margin: 100px 0px 0px 0px;
+    
+}
+
+.proMsg{
+    margin: 120px 0px 0px 0px;
+}
+
+.post-section{
+    margin: 20px 0px 0px 0px;
+}
+
+.nav-btn{
+    margin: 0px 10px 0px 0px;
+}
