@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nav And Slider</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body>
+<!-- Grid work to do: we will practice those:
+1.bootstrap grid,2.vavbar,3.carousel,4.card,5.modal,6.Form,input & button,7.table,8.vab & pil,9.According -->
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <!-- col-xxl-3 and col-xxl-9, col-xl-3 and  col-xl-9 na diye col-lg-3,col-lg-9 dile
+                uporer gula pabe ... same goes for other-->
+
+    <!--                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-4 py-5 bg-black">Logo</div>-->
+    <!--                <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-8 col-sm-8 py-5 bg-info">Banner</div>-->
+
+    <!--                <div class="col-lg-3 col-sm-4 py-5 bg-black">Logo</div>-->
+    <!--                <div class="col-lg-9 col-sm-8 py-5 bg-info">Banner</div>-->
+
+
+    <!--            <div class="col-md py-5 bg-black">Logo</div>-->
+    <!--            <div class="col-md py-5 bg-info">Banner</div>-->
+    <!--            <div class="col-md py-5 bg-secondary">Search</div>-->
+    <!--            <div class="col-md py-5 bg-primary">Add</div>-->
+    <!--            <div class="col-md py-5 bg-danger">Add</div>-->
+
+
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark"> <!--navbar-expand-xxl,xl,md,sm agula vangte kaj kore for response-->
+
+        <div class="container">
+            <a href="" class="navbar-brand">Logo</a>
+
+            <button type="button" class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu"> <!-- this is use for menu close hoye button ashbe-->
+
+                <ul class="navbar-nav ms-auto"> <!-- navbar-nav ms-auto starts from right & mx-auto starts from middle & me-auto starts from left-->
+                    <li><a href="" class="nav-link">Home</a></li>
+                    <li><a href="" class="nav-link">About</a></li>
+                    <li><a href="" class="nav-link">Portfolio</a></li>
+
+
+                    <li class="dropdown">
+                        <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Service</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" class="dropdown-item">Service One</a></li>
+                            <li><a href="" class="dropdown-item">Service Two</a></li>
+                            <li><a href="" class="dropdown-item">Service Three</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="" class="nav-link">Gallery</a></li>
+                    <li><a href="" class="nav-link">Contact</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!--carousel items= 1.inner, 2.control, 3.indicator-->
+<!--by default carousel item display non-->
+    <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" id="slider">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="./img/1.jpg" alt="a" class="w-100" style="height:550px" />
+
+                <div class="carousel-caption">
+                    <h1>This is carousel item</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum itaque similique sint. Asperiores aspernatur, autem consequuntur corporis eligendi error facere fugiat illo impedit ipsam iure, maiores nam rerum, ullam voluptatibus.</p>
+                    <a href="" class="btn btn-success">Read more</a>
+                </div>
+
+            </div>
+
+            <div class="carousel-item">
+                <img src="./img/2.jpg" alt="b" class="w-100" style="height:550px" />
+
+                <div class="carousel-caption">
+                    <h1>This is carousel item</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum itaque similique sint. Asperiores aspernatur, autem consequuntur corporis eligendi error facere fugiat illo impedit ipsam iure, maiores nam rerum, ullam voluptatibus.</p>
+                    <a href="" class="btn btn-success">Read more</a>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="./img/3.jpg" alt="c" class="w-100" style="height:550px" />
+
+                <div class="carousel-caption">
+                    <h1>This is carousel item</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum itaque similique sint. Asperiores aspernatur, autem consequuntur corporis eligendi error facere fugiat illo impedit ipsam iure, maiores nam rerum, ullam voluptatibus.</p>
+                    <a href="" class="btn btn-success">Read more</a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <a href="#slider" class="carousel-control-prev" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a href="#slider" class="carousel-control-next" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+
+
+<script src="./js/bootstrap.bundle.js" defer></script>
+
+</body>
+</html>
