@@ -1,0 +1,29 @@
+
+
+.nav-bg-color{
+    background-color: rgb(58,58,58);
+}
+
+.nav-menu-color{
+    color:white;
+    font-weight: bold;
+}
+
+
+.nav-menu-color:hover{
+    color:rgb(201,201,201);
+    text-shadow: 2px 2px rgb(131,131,131);
+    
+}
+
+.carousol-color{
+    background-color: black;
+}
+
+.carousol-font{
+    /* color:black; */
+    font-weight: bold;
+    font-size: 16px;
+    /* text-shadow: 2px 2px white; */
+}
+
