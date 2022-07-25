@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Page design</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+</head>
+<body>
+
+
+    <!--This is for menu -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+
+            <a href="" class="navbar-brand">logo</a>
+
+            <button type="button" class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li><a href="" class="nav-link">Home</a></li>
+                    <li><a href="" class="nav-link">About</a></li>
+                    <li><a href="" class="nav-link">Gallery</a></li>
+                    <li><a href="#registration" data-bs-toggle="modal" class="nav-link">Registration</a></li>
+                    <li><a href="#login"  class="nav-link" data-bs-toggle="modal">Login</a></li>
+                    <li><a href="" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- nav tab and pills  -->
+    <section >
+        <div class="container py-5">
+            <div class="row">
+
+
+                <!-- nav tabs-->
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            Nav Tabs
+                        </div>
+                        <div class="card-body">
+                            <ul class="nav nav-tabs">
+                                <li><a href="#description" data-bs-toggle="tab" class="nav-link active">Description</a></li>
+                                <li><a href="#specification" data-bs-toggle="tab"  class="nav-link">Specification</a></li>
+                                <li><a href="#review" data-bs-toggle="tab"  class="nav-link">Review</a></li>
+                            </ul>
+
+                            <div class="tab-content">
+
+                                <div id="description" class="tab-pane fade show active">
+                                    <h1>Description Content</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis facilis laboriosam laborum nobis, officiis pariatur quod rem temporibus? Adipisci aperiam incidunt possimus sed? Dignissimos in, obcaecati sequi soluta tempora voluptatem?</p>
+                                </div>
+
+                                <div id="specification" class="tab-pane  fade show">
+                                    <h1>Specification Content</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam autem, laboriosam quam sit sunt veritatis. Asperiores, aut corporis cupiditate debitis, eius eligendi error explicabo illo necessitatibus, non repellat voluptatum.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dolorem id illo ipsum laboriosam praesentium quia sit! Amet, aspernatur at aut deleniti distinctio esse facere ipsam modi necessitatibus neque reprehenderit?</p>
+                                </div>
+
+                                <div id="review" class="tab-pane  fade show">
+                                    <h1>Review Content</h1>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- nav pills-->
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            Nav Pills
+                        </div>
+                        <div class="card-body">
+                            <ul class="nav nav-pills">
+                                <li><a href="#home"  data-bs-toggle="pill" class="nav-link active" >Home</a></li>
+                                <li><a href="#about" data-bs-toggle="pill" class="nav-link" >About</a></li>
+                                <li><a href="#contact" data-bs-toggle="pill" class="nav-link" >Contact</a></li>
+                            </ul>
+
+                            <div class="tab-content">
+
+                                <div id="home" class="tab-pane fade show active">
+                                    <h1>Home Content</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid architecto assumenda distinctio doloremque dolorum ducimus eos esse excepturi explicabo facilis iste nulla quia quisquam quos rem, repudiandae velit vero?</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore error esse fuga natus placeat ullam. Aut autem dolores, explicabo id, labore maxime nesciunt nihil nisi provident, quas sequi velit voluptatum.</p>
+                                </div>
+
+                                <div id="about" class="tab-pane fade show ">
+                                    <h1>About content</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad atque blanditiis dolores eaque earum eligendi expedita facere id, illum inventore, ipsum molestias numquam omnis placeat quaerat qui sint vitae.</p>
+                                </div>
+
+                                <div id="contact" class="tab-pane fade show ">
+                                    <h1> Contact content</h1>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    
+
+
+
+    <!-- login modal -->
+    <!--This is modal part for login form. login form er vitor form er kaj-->
+    <div class="modal fade" id="login">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="text-center">Login Form</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+
+
+                    <form action="" method="post">
+                        <div class="row">
+                            <label for="email" class="col-md-4">Email Address:</label>
+                            <div class="col-md-8">
+                                <input type="email" id="email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row py-3">
+                            <label for="password" class="col-md-4">Password:</label>
+                            <div class="col-md-8">
+                                <input type="password" id="password" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="row py-2">
+                            <label  class="col-md-4"></label>
+                            <div class="col-md-8">
+                                <a href="" class="btn btn-success">login</a>
+                            </div>
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Registration modal -->
+    <div class="modal fade" id="registration">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="text-center">Registration</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+
+                    <div class="card card-body">
+                        <form action="" method="post">
+
+                            <div class="row mb-3">
+                                <label class="col-md-3">First Name:</label>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control"/>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label class="col-md-3">Last Name:</label>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control"/>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label class="col-md-3">Email:</label>
+                                <div class="col-md-9">
+                                    <input type="email" class="form-control"/>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label class="col-md-3">Password:</label>
+                                <div class="col-md-9">
+                                    <input type="password" class="form-control"/>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label class="col-md-3">Birth-Date:</label>
+                                <div class="col-md-9">
+                                    <input type="date" class="form-control"/>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label class="col-md-3">District:</label>
+                                <div class="col-md-9">
+                                    <select class="form-control">
+                                        <option value="">-- Select Your District --</option>
+                                        <option value="">Daka</option>
+                                        <option value="">Barisal</option>
+                                        <option value="">Khulna</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label class="col-md-3">Gender:</label>
+                                <div class="col-md-9">
+                                    <label ><input type="radio" name="grnder">Male</label>
+                                    <label ><input type="radio" name="grnder">Female</label>
+                                    <label ><input type="radio" name="grnder">Others</label>
+                                </div>
+                            </div>
+
+
+                            <div class="row mb-3">
+                                <label class="col-md-3"></label>
+                                <div class="col-md-9">
+                                    <label><input type="checkbox" checked/> I agree with all terms and condition.</label>
+                                </div>
+                            </div>
+
+
+                            <div class="row mb-3">
+                                <label class="col-md-3"></label>
+                                <div class="col-md-9">
+                                    <input type="button" class="btn btn-outline-success" value="Confirm"/>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
