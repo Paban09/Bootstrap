@@ -1,0 +1,106 @@
+.banner-section{
+    height: 550px;
+    background-image: url("../img/31214.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-caption{
+    height:350px;
+    width: 550px;
+    background-color: white;
+    margin-top: 90px;
+    padding: 10px;
+}
+
+.banner-caption-title{
+
+    font-size: 60px;
+    /*font-weight: bold;*/
+}
+
+.btn{
+    border-radius: 0px;
+}
+
+.service-section{
+    background-color: #0b5ed7;
+    color:white;
+}
+
+.w-100{width: 100px!important;}
+.w-150{width: 150px!important;}
+
+.h-200{height:200px!important;}
+.h-250{height:250px!important;}
+.h-300{height:300px!important;}
+.h-350{height:350px!important;}
+/*helper css*/
+/*.f-s-30 { font-size: 30px}*/
+
+.counter-section{
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.experience-bg{
+    min-height:500px;
+    background-image: url("../img/ng-ex.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.text-experience{
+    color: #C5D4E9;
+    font-size:60px;
+}
+
+.experience-margin{
+    margin-top:100px;
+    padding-right:90px;
+    padding-left:35px;
+}
+
+.line{
+    width:10%;
+    height:3px;
+    background-color:gray;
+    margin:10px auto;
+}
+
+.out-team-bg{
+    background-image: url('../img/Untitled1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.empire-img{
+    min-height: 600px;
+    background-image: url('../img/1092.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.c-b-1{
+    min-height: 600px;
+}
+
+
+.f-s-1{
+    background-color: rgb(56,72,157);
+    color:white;
+}
+
+.f-line{
+    width:100%;
+    height:3px;
+    background-color:white;
+    margin:10px auto;
+}
+
+.f-s-2{
+    background-color: rgb(64,72,115);
+    color: white;
+}
